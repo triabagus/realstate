@@ -777,7 +777,20 @@ button {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background: hsl(228, 8%, 76%);
+}
 
+::-webkit-scrollbar-thumb{
+  background: hsl(228, 8%, 64%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: hsl(228, 8%, 54%);
+}
 
 /*=============== SCROLL UP ===============*/
 
