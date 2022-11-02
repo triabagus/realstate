@@ -959,7 +959,67 @@ body.dark-theme{
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px){
+  .nav__menu{
+    width: 342px
+  }
 
+  .home__search{
+    width: 412px;
+  }
+
+  .contact__card{
+    grid-template-columns: repeat(2, 192px);
+    justify-content: center;
+  }
+
+  .footer__content{
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
+@media screen and (min-width: 767px){
+  .home__container{
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2rem;
+  }
+
+  .home__orbe{
+    align-self: flex-end;
+  }
+
+  .home__data{
+    padding-bottom: 2rem;
+  }
+
+  .logos__container{
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+  }
+
+  .value__container,
+  .contact__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .contact__images{
+    order: 1;
+  }
+
+  .contact__card{
+    justify-content: initial;
+  }
+
+  .subscribe__container{
+    padding: 3rem 13rem;
+  }
+
+  .footer__container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+}
 
 /* For large devices */
 
