@@ -17,6 +17,15 @@ var swiperPopular = new Swiper(".popular__container", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints:{
+        576: {
+            slidesPerView: 3,
+        },
+        1024: {
+            spaceBetween: 0,
+        }
     }
 })
 
